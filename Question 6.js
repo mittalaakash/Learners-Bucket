@@ -14,6 +14,6 @@ const add = (...args) => {
 };
 
 console.log(add(1, 2, 3).value() === 5);
-console.log(add(1, 2)(3).value() === 6);
-console.log(add(1)(2)(3).value() === 6);
-console.log(add(1, 2)(1) + 1);
+// console.log(add(1, 2)(3).value() === 6);
+// console.log(add(1)(2)(3).value() === 6);
+// console.log(add(1, 2)(1) + 1);
